@@ -1,0 +1,86 @@
+#input > * {
+    height: 2em;
+}
+
+#input img{
+    cursor: pointer;
+}
+
+body{
+    background-color: #FCC8D1;
+}
+
+section h1{
+    color: #D14D72;
+}
+
+label{
+    color: #D14D72;
+}
+
+section{
+    border: 1px solid white;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: #FEF2F4;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #E8A0BF;
+}
+
+form{
+}
+
+.input{
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background: inherit;
+    border-bottom: 2px solid #D14D72;
+    outline: none;
+}
+
+.input::placeholder, input[type=date]{
+    color: #D14D72;
+}
+
+.horario p{
+    margin-bottom: 0;
+}
+
+.horario select{
+    margin-bottom: 20px;
+}
+
+.genero p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 90%;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit{
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: #FFABAB;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size:medium;
+}
+
+section p{
+    color: #D14D72;
+    font-weight: bolder;
+    text-decoration: none;
+}
